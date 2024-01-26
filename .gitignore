@@ -1,0 +1,14 @@
+paper
+paper/*
+
+waterfall/storage/0/*
+waterfall/storage/1500/*
+waterfall/storage/3000/*
+waterfall/storage/database/*
+waterfall/storage/proxy/*
+
+!waterfall/storage/0/.gitignore
+!waterfall/storage/1500/.gitignore
+!waterfall/storage/3000/.gitignore
+!waterfall/storage/database/.gitignore
+!waterfall/storage/proxy/.gitignore
