@@ -19,6 +19,8 @@ services:
             - ./proxy/waterfall.jar:/server/server.jar
             - ./proxy/config.yml:/server/config.yml
             - ./proxy/plugins/TerraPlusMinusBungeeBridge-1.0-SNAPSHOT.jar:/server/plugins/terraplusminusbungeebridge.jar
+            - ./proxy/plugins/BungeeSafeguard-3.1-SNAPSHOT-all.jar:/server/plugins/bungeesafeguard.jar
+            - ./proxy/plugins/BungeeSafeguard/config.yml:/server/plugins/BungeeSafeguard/config.yml
         working_dir: /server
         entrypoint:
             - java
@@ -43,6 +45,8 @@ services:
             - ./shared/plugins/terraplusminus-1.3.2.jar:/server/plugins/terraplusminus.jar
             - ./shared/plugins/worldedit-bukkit-7.2.17.jar:/server/plugins/worldedit.jar
             - ./shared/plugins/LuckPerms/config.yml:/server/plugins/LuckPerms/config.yml
+            - ./shared/plugins/Essentials/motd.txt:/server/plugins/Essentials/motd.txt
+            - ./shared/plugins/Essentials/config.yml:/server/plugins/Essentials/config.yml
             - ./0/plugins/Terraplusminus/config.yml:/server/plugins/Terraplusminus/config.yml
         working_dir: /server
         entrypoint:
@@ -67,6 +71,8 @@ services:
             - ./shared/plugins/terraplusminus-1.3.2.jar:/server/plugins/terraplusminus.jar
             - ./shared/plugins/worldedit-bukkit-7.2.17.jar:/server/plugins/worldedit.jar
             - ./shared/plugins/LuckPerms/config.yml:/server/plugins/LuckPerms/config.yml
+            - ./shared/plugins/Essentials/motd.txt:/server/plugins/Essentials/motd.txt
+            - ./shared/plugins/Essentials/config.yml:/server/plugins/Essentials/config.yml
             - ./1500/plugins/Terraplusminus/config.yml:/server/plugins/Terraplusminus/config.yml
         working_dir: /server
         entrypoint:
@@ -91,6 +97,8 @@ services:
             - ./shared/plugins/terraplusminus-1.3.2.jar:/server/plugins/terraplusminus.jar
             - ./shared/plugins/worldedit-bukkit-7.2.17.jar:/server/plugins/worldedit.jar
             - ./shared/plugins/LuckPerms/config.yml:/server/plugins/LuckPerms/config.yml
+            - ./shared/plugins/Essentials/motd.txt:/server/plugins/Essentials/motd.txt
+            - ./shared/plugins/Essentials/config.yml:/server/plugins/Essentials/config.yml
             - ./3000/plugins/Terraplusminus/config.yml:/server/plugins/Terraplusminus/config.yml
         working_dir: /server
         entrypoint:

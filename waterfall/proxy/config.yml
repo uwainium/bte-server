@@ -56,5 +56,5 @@ servers:
     restricted: false
   s3000:
     motd: '&1Just another Waterfall - Forced Host'
-    address: s1500:25565
+    address: s3000:25565
     restricted: false

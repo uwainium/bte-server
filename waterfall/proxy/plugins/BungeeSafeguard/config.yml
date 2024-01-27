@@ -1,0 +1,13 @@
+version: '3.1'
+whitelist-message: :( You are not whitelisted on this server
+blacklist-message: :( We can't let you enter this server
+no-uuid-message: :( Name yourself
+enable-whitelist: true
+lazy-whitelist: []
+whitelist:
+- 3b289bb3-2e9a-416b-aaa0-4877bf3dd562
+enable-blacklist: false
+lazy-blacklist: null
+blacklist: null
+xbl-web-api: https://xbl-api.prouser123.me
+confirm: false
