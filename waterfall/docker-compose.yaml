@@ -20,7 +20,9 @@ services:
             - ./proxy/config.yml:/server/config.yml
             - ./proxy/plugins/TerraPlusMinusBungeeBridge-1.0-SNAPSHOT.jar:/server/plugins/terraplusminusbungeebridge.jar
             - ./proxy/plugins/BungeeSafeguard-3.1-SNAPSHOT-all.jar:/server/plugins/bungeesafeguard.jar
+            - ./proxy/plugins/LuckPerms-Bungee-5.4.117.jar:/server/plugins/luckperms.jar
             - ./proxy/plugins/BungeeSafeguard/config.yml:/server/plugins/BungeeSafeguard/config.yml
+            - ./proxy/plugins/LuckPerms/config.yml:/server/plugins/LuckPerms/config.yml
         working_dir: /server
         entrypoint:
             - java
