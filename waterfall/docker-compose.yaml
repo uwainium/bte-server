@@ -49,6 +49,7 @@ services:
             - ./shared/plugins/LuckPerms/config.yml:/server/plugins/LuckPerms/config.yml
             - ./shared/plugins/Essentials/motd.txt:/server/plugins/Essentials/motd.txt
             - ./shared/plugins/Essentials/config.yml:/server/plugins/Essentials/config.yml
+            - ./shared/plugins/WorldEdit/config.yml:/server/plugins/WorldEdit/config.yml
             - ./0/plugins/Terraplusminus/config.yml:/server/plugins/Terraplusminus/config.yml
         working_dir: /server
         entrypoint:
@@ -75,6 +76,7 @@ services:
             - ./shared/plugins/LuckPerms/config.yml:/server/plugins/LuckPerms/config.yml
             - ./shared/plugins/Essentials/motd.txt:/server/plugins/Essentials/motd.txt
             - ./shared/plugins/Essentials/config.yml:/server/plugins/Essentials/config.yml
+            - ./shared/plugins/WorldEdit/config.yml:/server/plugins/WorldEdit/config.yml
             - ./1500/plugins/Terraplusminus/config.yml:/server/plugins/Terraplusminus/config.yml
         working_dir: /server
         entrypoint:
@@ -101,6 +103,7 @@ services:
             - ./shared/plugins/LuckPerms/config.yml:/server/plugins/LuckPerms/config.yml
             - ./shared/plugins/Essentials/motd.txt:/server/plugins/Essentials/motd.txt
             - ./shared/plugins/Essentials/config.yml:/server/plugins/Essentials/config.yml
+            - ./shared/plugins/WorldEdit/config.yml:/server/plugins/WorldEdit/config.yml
             - ./3000/plugins/Terraplusminus/config.yml:/server/plugins/Terraplusminus/config.yml
         working_dir: /server
         entrypoint:
